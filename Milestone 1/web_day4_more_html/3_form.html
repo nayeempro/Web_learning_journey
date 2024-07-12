@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is form</title>
+   <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            }
+   </style>
+
+   <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="3_form.html">Form </a></li>
+                <li><a href="2_blog.html">Blog</a></li>
+                <li><a href="1_vedio.html">Vedio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" name="" placeholder="Your Name"> 
+                </label>
+                <label for="email">Your Email :
+                    <input id="email" type="email" name="" placeholder="Your Email"> 
+                </label>
+                <label for="phn">Your phone:
+                    <input id="phn" type="text" name="" placeholder="Your phone"> 
+                </label>
+
+                <fieldset>
+                    <legend>Pick only one pitha</legend>
+                    <label for="chitu">
+                        <input type="radio" name="pitha" id="chitu">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puli">
+                        <input type="radio" name="pitha" id="puli">Puli
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>You can choose one or more</legend>
+                    <label for="sukti">
+                        <input type="checkbox" name="vorta" id="sukti">Shukti Vorta
+                    </label>
+                   <label for="alu">
+                        <input type="checkbox" name="vorta" id="alu">Alu Vorta
+                    </label>
+            
+                    <label for="badam">
+                        <input type="checkbox" name="vorta" id="badam">Badam Vorta
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend> Special Instruction</legend>
+                    <textarea name="details" id=""></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

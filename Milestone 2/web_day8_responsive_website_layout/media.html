@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Media Quiry</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid red;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .food img{
+            width: 100%;
+        }
+        /* Smaller Device */
+        @media screen and (max-width: 576px ){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .food{
+                background-color: aquamarine;
+            }
+
+        }
+        /* Medium Device */
+        @media screen and (min-width: 576px) and (max-width: 950px){
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+            .food{
+                background-color: tomato;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 1</h3>
+            <h6>Food Price - $100</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quae blanditiis sed perferendis impedit accusantium dolores minus recusandae asperiores maiores?</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 2</h3>
+            <h6>Food Price - $200</h6>
+            <p>Corrupti totam doloribus id autem illum quasi rem fuga, sed voluptates similique architecto necessitatibus veritatis numquam ipsum et beatae deleniti.</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 3</h3>
+            <h6>Food Price - $300</h6>
+            <p>Error quod deserunt deleniti eveniet porro beatae, repellendus harum corporis inventore iusto adipisci mollitia ex maxime. Porro ducimus sunt ullam.</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 4</h3>
+            <h6>Food Price - $400</h6>
+            <p>Obcaecati at beatae aliquam! Possimus mollitia, quasi id provident, facere non, dignissimos praesentium repellendus sequi tenetur quas voluptatum eos aliquam.</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 5</h3>
+            <h6>Food Price - $500</h6>
+            <p>Repellat, eum provident nemo sit error perferendis omnis iste amet nam eaque vero eius molestias nisi ipsum qui quidem. Sint.</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 6</h3>
+            <h6>Food Price - $600</h6>
+            <p>Natus perspiciatis asperiores animi? Commodi, numquam! Dolorum, ratione fuga. Nihil repellat, soluta magni nisi dolore optio amet sint consequatur ratione?</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 7</h3>
+            <h6>Food Price - $700</h6>
+            <p>Nisi fugit, voluptas nulla molestiae optio, consectetur similique commodi recusandae harum suscipit quis provident veritatis distinctio impedit ab excepturi laborum?</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 8</h3>
+            <h6>Food Price - $800</h6>
+            <p>Quam praesentium, eveniet beatae qui asperiores reiciendis possimus! Vel autem iure commodi exercitationem non adipisci dolores omnis, quae quis nobis!</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 9</h3>
+            <h6>Food Price - $900</h6>
+            <p>Vel omnis nobis dolores aliquam atque eos tempore soluta assumenda maxime veniam! Repellendus amet nulla a eaque libero possimus sint?</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 10</h3>
+            <h6>Food Price - $1000</h6>
+            <p>Tempore similique, consequuntur sunt quaerat quos officia! Molestiae iusto ipsa velit, ipsam libero id inventore. Perferendis et at reprehenderit quisquam.</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 11</h3>
+            <h6>Food Price - $1100</h6>
+            <p>Atque iure, deleniti rem aut provident illum quidem quibusdam! Illum voluptates recusandae enim consectetur nostrum repellendus harum molestiae nulla ad?</p>
+        </div>
+        <div class="food">
+            <img src="images/hardy.png" alt="">
+            <h3>Food Item - 12</h3>
+            <h6>Food Price - $1200</h6>
+            <p>Reiciendis doloribus minus obcaecati hic molestias odio, nobis, ducimus harum sequi tempore unde quam sint itaque. Nostrum iste unde nobis?</p>
+        </div>
+    </div>
+</body>
+</html>

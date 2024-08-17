@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>max-width</title>
+    <style>
+        /* This is max-width style */
+
+
+        .max-wid{
+             }
+        .max-wid img{
+            max-width: 100%;
+            /* if we increase width, it increase until its default width but never cross its default value*/
+            }
+        .content {
+            width: 600px;
+            background-color: green;
+            padding: 30px;
+        }
+        .content h1{
+            /* width: max-content; */
+            /* All word ih one line */
+
+            /* width: min-content; */
+            /* new line base with maximum word */
+
+            /* width: fit-content; */
+            /* combination of max and min content */
+
+            /* =========== VW(view with style) ===========*/
+            background-color: red;
+            width: 100vw;
+            /* It show 100 based on which browser you use not its parent */
+        }
+         
+    
+    </style>
+</head>
+<body>
+    <!-- This is max-width -->
+    <!-- <div class="max-wid">
+        <img src="img/architect.png" alt="">
+    </div> -->
+
+    <!-- This is content (vw/max/min/fit content) -->
+     <div class="content">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aut accusamus consequunturconsequuntur sunt id harum ullam asperiores praesentium officiis tempore laborum eos vitae dolore porro aperiam molestias ipsam cumque? Nostrum.
+        </h1>
+     </div>
+
+</body>
+</html>

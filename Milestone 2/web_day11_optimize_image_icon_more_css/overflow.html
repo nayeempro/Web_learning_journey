@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .overflow{
+            width: 200px;
+        }
+        .box-1{
+            height: 200px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .box-2{
+            height: 200px;
+            overflow:auto;
+        }
+        .text{
+            width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* text-overflow: clip; */
+        }
+    </style>
+</head>
+<body>
+    <p title="This clickable post related with ellipsis" class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iure dolore praesentium provident tempora exercitationem aliquam cupiditate illo dolor optio nulla, sapiente harum maiores odio eligendi et aspernatur facere debitis.l Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo quod! Minus architecto soluta odit labore dolorum beatae? Consectetur, id.</p>
+    <section class="overflow">
+        <div class="box-1">
+            <h2>Box - 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.</p>
+        </div>
+        <div class="box-2">
+            <h2>Box - 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eumLorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat enim nemo corporis suscipit, at ipsa saepe sunt autem qui eum.</p>
+        </div>>
+    </section>
+</body>
+</html>

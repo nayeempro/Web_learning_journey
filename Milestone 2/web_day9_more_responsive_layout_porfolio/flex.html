@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple responsive</title>
+    <style>
+        .container-1{
+            display: flex;
+            gap: 10px;
+            
+        }
+        .box{
+            background-color: aqua;
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        li{
+            background-color: aquamarine;
+            border-radius: 10px;
+            display: flex;
+            gap: 15px;
+        }
+
+        @media screen and (max-width: 576px){
+            .container-1{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>This is simple responsive</h2>
+    <div class="container-1">
+        <div class="box">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, placeat! Odio cum autem repellat doloremque error recusandae quidem et, ducimus esse dolores nulla debitis at, aspernatur vel reprehenderit tenetur veritatis!</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id vel laudantium perferendis maxime at libero nobis deleniti, ea quidem assumenda enim vero a atque placeat, hic eligendi quae. Et!</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <li>
+            <p>List-1</p>
+        </li>
+        <li>
+            <p>List-2</p>
+        </li>
+        <li>
+            <p>List-3</p>
+        </li>
+        <li>
+            <p>List-4</p>
+        </li>
+        <li>
+            <p>List-5</p>
+        </li>
+        <li>
+            <p>List-6</p>
+        </li>
+    </div>
+</body>
+</html>
